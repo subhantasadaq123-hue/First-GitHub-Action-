@@ -1,0 +1,13 @@
+name: Subhan
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Greetings
+      run: echo "Hello! Subhan Tasadaq."
